@@ -5,6 +5,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    // border-top: 2px dashed @navigation-border;
+    // padding-top: 25px;
 
    
     
@@ -14,13 +16,22 @@
     }
 
     .img-content {
+      display: flex;
+      justify-content: flex-end;
       width: 48%;
       padding-left: 1%;
 
       img {
         border-radius: 10px;
       }
+
     }
+  }
+
+  .top {
+    border-top: 2px dashed @navigation-border;
+    border-bottom: 2px dashed @navigation-border;
+    
   }
 
   .inverse-content {
@@ -57,5 +68,9 @@
       width: 30%;
       margin-bottom: 30px;
     }
+  }
+
+  .fun {
+    padding-bottom: 30px;
   }
 }// home
